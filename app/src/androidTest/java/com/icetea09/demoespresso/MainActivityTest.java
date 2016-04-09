@@ -20,7 +20,7 @@ import static org.hamcrest.CoreMatchers.allOf;
 public class MainActivityTest {
 
     @Rule
-    public ActivityTestRule<MainActivity> activityRule = new ActivityTestRule<>(MainActivity.class);
+	public ActivityTestRule<MainActivity> activityRule = new ActivityTestRule<>(MainActivity.class);
 
     @Test
     public void userShouldBeAbleToLoginIfUsernameAndPasswordProvided() {
